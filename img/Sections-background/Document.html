@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0094)http://127.0.0.1:5500/advanced-html-css/classwork/lesson5-adaptive-grid-flex/task-1/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="./Document_files/style.css"></head>
+<body style="">
+    <header class="header">
+    </header>
+    <main class="main">
+    <div class="threshold">
+        <div class="container">
+        <div class="content">
+            <h2>Trysail Barbary Coast Plunder Arr</h2>
+            <p>Just some random words from <a href="http://pirateipsum.me/">Pirate Ipsum</a>. Grog shrouds stern lateen sail measured fer yer chains cable scuppers coffer belaying pin gun. Trysail to go on account lanyard Gold Road cable maroon belay bilge haul wind topsail. American Main boom brigantine Yellow Jack yo-ho-ho driver Sink me crack Jennys tea cup knave aft.</p>
+            <p>Anyway, to understand the purpose on this practice, just try to resize the browser (viewport) to see the responsive layout in action. Basically this just simple example layout using two breakpoint, 1360px and 720px. Yohohoho... that's all, mate! Hope this could be helpful.</p>
+            <p>Parrel crow's nest belay strike colors avast me fathom schooner hornswaggle scourge of the seven seas. Coffer belay rigging draught cable Yellow Jack lanyard American Main booty to go on account. Swing the lead Arr crimp scourge of the seven seas deadlights bucko trysail skysail dead men tell no tales grapple.</p>
+            <p>Wench matey Buccaneer bilge water chantey lee list league topgallant yardarm. Bilge water list scurvy skysail broadside case shot carouser pinnace Cat o'nine tails Admiral of the Black. Barkadeer scourge of the seven seas furl gaff scuttle snow rum rutters boom measured fer yer chains.</p>
+            <p>Jib warp scallywag nipperkin six pounders tackle Cat o'nine tails plunder careen square-rigged. Doubloon provost jack loot line lanyard bucko long boat bilged on her anchor parrel. Rigging hands bucko gibbet snow rum aye fore keel spike.</p>
+        </div>
+
+            <div class="banner top">
+            <h4>Banner</h4>
+            <p>Consider this as the banner holder / container.</p>
+            </div>
+    
+            <div class="banner bottom">
+            <h4>Banner</h4>
+            <p>Consider this as the banner holder / container.</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright © 2021. All for one, one for all.</p>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
